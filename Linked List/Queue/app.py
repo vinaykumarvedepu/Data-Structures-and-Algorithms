@@ -10,7 +10,7 @@ while True:
     print("5.EXIT")
     n = int(input("ENTER ANY OPTION FROM THE ABOVE MENU:"))
     if n == 1:
-        queue.insert(int(input("Enter the element you want to push:")))
+        queue.insert(int(input("Enter the element you want to Insert:")))
     elif n==2:
         queue.delete_f()
     elif n==3:
